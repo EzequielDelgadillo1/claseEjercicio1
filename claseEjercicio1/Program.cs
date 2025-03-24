@@ -38,4 +38,33 @@ namespace claseEjercicio1
         
 
     }
+
+    public class Celular
+    {
+        public string marca;
+        public string modelo;
+        public int bateria;
+        public int camara;
+        public int almacenamiento;
+        
+        public void Llamar()
+        {
+            Console.WriteLine("Lammando a otro celular");
+        }
+
+        public void encenderLinterna()
+        {
+            Console.WriteLine("Encendiendo Linterna");
+        }
+
+        public void Sacarfoto()
+        {
+            Console.WriteLine("Tomar foto");
+        }
+
+        public void Apagar()
+        {
+            Console.WriteLine("Apagando el telefono");
+        }
+    }
 }
